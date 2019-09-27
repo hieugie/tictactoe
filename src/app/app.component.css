@@ -1,0 +1,42 @@
+.tictactoe {
+  width: 540px;
+  height: 540px;
+  background-color: #eee;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 4px;
+}
+
+.grid-item {
+  background-color: blueviolet;
+  border: 1px solid #eee;
+  border-bottom: 5px solid gray;
+  font-size: 128px;
+  text-align: center;
+  color: white;
+}
+
+.grid-item:hover{
+  background-color: #9b5ae2;
+}
+
+.grid-item:active {
+  background-color: #6622a9;
+  border-bottom: 5px solid #d9d9d9;
+
+}
+
+.btn-reset {
+  padding: 10px;
+  color: white;
+  background-color: indianred;
+  font-size: 12px;
+  border: 1px solid indianred;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn-reset:active {
+  background-color: #cd4248;
+}

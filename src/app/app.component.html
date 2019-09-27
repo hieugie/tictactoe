@@ -1,0 +1,5 @@
+<div class="tictactoe">
+  <div *ngFor="let node of data; let i = index" class="grid-item" (click)="tick(i)">{{node}}</div>
+</div>
+<button class="btn-reset" (click)="reset()"> Chơi lại</button>
+<div *ngIf="isWin">Người chơi {{this.isX ? 'X' : 'O'}} đã thắng</div>
